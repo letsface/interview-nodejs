@@ -29,7 +29,6 @@ We want to verify understanding of:
 
 Create test and library based on the sample function query.
 
-
 ## TODO
 
 Create lib/loader.js with two exported methods:
@@ -58,7 +57,6 @@ SELECT 0;
 SELECT SELECT;
 SELECT;
 INSERT;
-
 
 ## Guidelines
 
