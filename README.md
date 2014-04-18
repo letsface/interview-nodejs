@@ -35,7 +35,7 @@ Create lib/loader.js with two exported functions:
  * load file asynchronously load data from the data/queries.sql file
  * turn into an array (one query string per element)
  * transform/validate queries
- * run all queries chained, one query at a time against a promise-wrapped version of query
+ * run all queries against lib/query.js chained, one query at a time against a promise-wrapped version of lib/query.js:query
 * valid(str): returns true if the query is valid, false otherwise
 
 Create the corresponding test for these functions in test/
@@ -66,6 +66,7 @@ INSERT;
 
 Requirements (read carefully):
 
+* You must use the lib/query.js query function to submit your queries
 * You must not change or copy the content of the file lib/query.js
 * You must provide automated tests, including at least one unit test that doesn't do any file access
 * You must use a promises library (Q)
