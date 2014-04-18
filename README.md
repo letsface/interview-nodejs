@@ -46,17 +46,21 @@ caller of query is responsible for validation:
 
 These queries are valid
 
+```
 SELECT true;
 SELECT false;
  SELECT   true;
+```
 
 these queries are invalid:
 
+```
 SELECT 1;
 SELECT 0;
 SELECT SELECT;
 SELECT;
 INSERT;
+```
 
 ## Guidelines
 
