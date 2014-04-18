@@ -1,0 +1,23 @@
+{
+  "name": "interview",
+  "version": "0.0.0",
+  "description": "interview question and answer",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha test"
+  },
+  "repository": "",
+  "author": "",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "q": "~1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.18.2",
+    "mocha-jshint": "0.0.7"
+  }
+}
