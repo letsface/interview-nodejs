@@ -1,7 +1,7 @@
 {
   "name": "interview",
   "version": "0.0.0",
-  "description": "interview question and answer",
+  "description": "interview question for NodeJS",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -11,7 +11,7 @@
   },
   "repository": "",
   "author": "",
-  "license": "MIT",
+  "license": "Proprietary",
   "readmeFilename": "README.md",
   "dependencies": {
     "q": "~1.0.1"
