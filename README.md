@@ -1,22 +1,6 @@
 # NodeJS Interview
 
-WARNING: YOU MUST NOT SHARE THIS REPOSITORY OUTSIDE OF LETSFACE
-
 ## Overview
-
-STEP #1
-
-Install and run:
-
-* get this repository to your machine
-* install the dependencies
-* run the tests
-
-STEP #2
-
-* Complete the instructions below
-
-## Instructions
 
 We want to verify understanding of:
 
@@ -28,6 +12,20 @@ We want to verify understanding of:
 * code hygiene
 * exception handling
 * usage of npm
+
+## Steps
+
+STEP #1
+
+Install and run:
+
+* get this repository to your machine
+* install the dependencies
+* run the tests
+
+STEP #2
+
+* Complete the TODO below
 
 ## TODO
 
@@ -80,6 +78,6 @@ Requirements (read carefully):
 
 ## Tips
 
-* in your test, make sure to call promise fail and done methods
+* in your test, make sure to call promise fail and done methods at the end of your promise chain
 * fs.readFile returns a buffer, not a string
 * chaining promises can be achieved with the Array.prototype.reduce method
