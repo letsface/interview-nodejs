@@ -27,11 +27,9 @@ We want to verify understanding of:
 * exception handling
 * usage of npm
 
-Create test and library based on the sample function query.
-
 ## TODO
 
-Create lib/loader.js with two exported methods:
+Create lib/loader.js with two exported functions:
 
 * load(): returns a promise to an array of processed queries
  * load file asynchronously load data from the data/queries.sql file
@@ -39,6 +37,8 @@ Create lib/loader.js with two exported methods:
  * transform/validate queries
  * run all queries chained, one query at a time against a promise-wrapped version of query
 * valid(str): returns true if the query is valid, false otherwise
+
+Create the corresponding test for these functions in test/
 
 ## Input data format
 
