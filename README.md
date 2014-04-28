@@ -29,6 +29,8 @@ STEP #2
 
 ## TODO
 
+We need to load a group of queries from a file, run them sequentially and collect the result in an array. And we want to use promise to manage the asynchronous calls.
+
 Create lib/loader.js with two exported functions:
 
 * load(): returns a promise to an array of processed queries
