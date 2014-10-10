@@ -36,4 +36,15 @@ describe('Loader tests', function() {
         .fail(done)
         .done();
     });
+
+    it('load returns the same values in consecutive runs', function(done) {
+        loader.load().then(function(result) {
+            loader.load().then(function(result2) {
+                assert.deepEqual(result, result2);
+                done();
+            });
+        })
+        .fail(done)
+        .done();
+    });
 });
