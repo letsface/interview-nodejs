@@ -1,0 +1,11 @@
+{
+  "database": {
+    "migrations": {
+     "tableName": "versions",
+     "directory": "./migrations/"
+    },
+    "seeds": {
+     "directory": "./seeds/"
+    }
+  }
+}

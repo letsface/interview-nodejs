@@ -15,6 +15,7 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "bluebird": "^2.9.6",
+    "config": "^1.10.0",
     "express": "^4.11.2",
     "knex": "^0.7.3"
   },
