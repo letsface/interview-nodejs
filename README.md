@@ -49,6 +49,7 @@ see fit. Keep it simple. You can authenticate for every query, or use session, u
 
 ## Tips
 
+* Don't forget about code re-usability !
 * In knex migrations, each function `up` and `down` MUST return a promise in order to work properly
 * Make good use of express middleware
 * Use knex seed feature to populate the database for development
