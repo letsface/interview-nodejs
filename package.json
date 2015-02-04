@@ -1,20 +1,22 @@
 {
   "name": "interview",
-  "version": "0.0.0",
-  "description": "interview question for NodeJS",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Interview for NodeJS",
+  "main": "server.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "test": "node_modules/mocha/bin/mocha test"
   },
-  "repository": "",
-  "author": "",
-  "license": "Proprietary",
+  "repository": "git@github.com:letsface/interview-nodejs.git",
+  "author": "sylvain@letsface.com",
+  "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "q": "~1.0.1"
+    "bluebird": "^2.9.6",
+    "express": "^4.11.2",
+    "knex": "^0.7.3"
   },
   "devDependencies": {
     "mocha": "~1.18.2",
