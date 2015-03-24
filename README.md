@@ -11,6 +11,7 @@ We want to verify understanding of:
 * code hygiene
 * exception handling
 * usage of npm
+* write unit tests
 
 ## Requirements
 
@@ -18,9 +19,9 @@ We want to verify understanding of:
   * Bluebird for Promises,
   * **Express.js 4** to build the REST api
   * config (http://npmjs.org/package/config)
-  * **You are not allowed** to use another Framework as a base (Sailjs)
+  * **You are not allowed** to use another framework as a base (like Sailjs for instance), or tools that helps build a scaffolding.
 * We recommend using:
-  * knex for database (you can use sqlite as a database)
+  * knex for database connection (you can use any SQL database, MySQL, PostgreSQL, SQLite, etc)
   * Mocha for testing
 
 ## Instructions
@@ -39,6 +40,8 @@ We want to verify understanding of:
 
 * Don't store the password in clear, you are free to use any strategy to store the password, please detail your choice
  in ANSWER.md
+
+* Write some tests using Mocha,
 
 * Keep a query log, store it as you like,
 
